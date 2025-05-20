@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>راهنمای مهاجرت کاری به اروپا</title>
+<style>
+  body {
+    font-family: Tahoma, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    margin: 0; padding: 0;
+  }
+  header {
+    background: #0056b3;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  nav {
+    background: #003d7a;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  nav button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  nav button:hover, nav button.active {
+    background: #001f3f;
+  }
+  section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  h2 {
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 6px;
+  }
+  ul {
+    line-height: 1.6;
+  }
+  a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>راهنمای مهاجرت کاری به اروپا</h1>
+</header>
+
+<nav>
+  <button class="active" onclick="showSection('countries')">کشورها</button>
+  <button onclick="showSection('visas')">انواع ویزا</button>
+  <button onclick="showSection('embassy')">وقت سفارت</button>
+  <button onclick="showSection('jobs')">جستجوی کار</button>
+  <button onclick="showSection('faq')">سوالات متداول</button>
+</nav>
+
+<section id="countries">
+  <h2>کشورهای محبوب برای مهاجرت کاری</h2>
+  <ul>
+    <li><b>آلمان:</b> بازار کار گسترده، هزینه زندگی متوسط، ویزای Blue Card</li>
+    <li><b>هلند:</b> کیفیت زندگی بالا، زبان انگلیسی رایج، فرصت‌های شغلی فراوان</li>
+    <li><b>سوئد:</b> حمایت‌های اجتماعی قوی، کار در زمینه‌های فناوری و مهندسی</li>
+    <li><b>نروژ:</b> درآمد بالا، هزینه زندگی بالا، فرصت‌های کار تخصصی</li>
+    <li><b>ایتالیا:</b> هزینه کم‌تر زندگی، بازار کار سخت‌تر، مناسب برای کسانی که زبان ایتالیایی بلدند</li>
+  </ul>
+</section>
+
+<section id="visas" style="display:none;">
+  <h2>انواع ویزای کاری</h2>
+  <ul>
+    <li><b>ویزای جستجوی کار (Job Seeker):</b> اجازه اقامت برای پیدا کردن کار، معمولاً ۶ ماه تا ۱ سال</li>
+    <li><b>ویزای کاری با پیشنهاد شغلی:</b> نیازمند داشتن قرارداد کاری از کارفرما</li>
+    <li><b>ویزای Blue Card اروپا:</b> برای متخصصان با حقوق بالا و مهارت‌های خاص</li>
+    <li><b>ویزای خوداشتغالی:</b> برای کسانی که می‌خواهند کسب‌وکار خودشان را راه‌اندازی کنند</li>
+  </ul>
+</section>
+
+<section id="embassy" style="display:none;">
+  <h2>گرفتن وقت سفارت</h2>
+  <p>برای گرفتن وقت سفارت هر کشور، به سایت رسمی سفارت مراجعه کنید و طبق دستورالعمل‌های زیر اقدام کنید:</p>
+  <ul>
+    <li><b>آلمان:</b> <a href="https://de.usembassy.gov/visas/" target="_blank">سایت سفارت آلمان</a></li>
+    <li><b>هلند:</b> <a href="https://www.netherlandsandyou.nl/travel-and-residence/visas-for-the-netherlands" target="_blank">سایت سفارت هلند</a></li>
+    <li><b>سوئد:</b> <a href="https://www.swedenabroad.se/en/embassies/" target="_blank">سایت سفارت سوئد</a></li>
+    <li><b>نروژ:</b> <a href="https://www.norway.no/en/" target="_blank">سایت سفارت نروژ</a></li>
+    <li><b>ایتالیا:</b> <a href="https://ambwashingtondc.esteri.it/ambasciata_washington/en/" target="_blank">سایت سفارت ایتالیا</a></li>
+  </ul>
+  <p>مراحل کلی: ثبت نام آنلاین، انتخاب تاریخ وقت، پرداخت هزینه، و تایید نهایی.</p>
+</section>
+
+<section id="jobs" style="display:none;">
+  <h2>جستجوی کار در اروپا</h2>
+  <ul>
+    <li><a href="https://www.linkedin.com/jobs" target="_blank">LinkedIn</a> - سایت معروف کاریابی و شبکه حرفه‌ای</li>
+    <li><a href="https://www.indeed.com/" target="_blank">Indeed</a> - جستجوی آگهی‌های کاری در کشورهای مختلف</li>
+    <li><a href="https://ec.europa.eu/eures/public/en" target="_blank">EURES</a> - شبکه کاریابی اتحادیه اروپا</li>
+  </ul>
+  <p>نکته: رزومه خود را به زبان کشور مقصد تنظیم کنید و مهارت‌های خود را برجسته نمایید.</p>
+</section>
+
+<section id="faq" style="display:none;">
+  <h2>سوالات متداول</h2>
+  <ul>
+    <li><b>کمترین هزینه برای مهاجرت کاری کدام کشور است؟</b> ایتالیا و اسپانیا نسبتاً هزینه‌های کمتری دارند.</li>
+    <li><b>چقدر می‌توان در اروپا اقامت کرد؟</b> بستگی به نوع ویزا دارد، معمولاً ۱ تا ۵ سال.</li>
+    <li><b>آیا می‌توان پس از مهاجرت خانواده را همراه برد؟</b> بله، اغلب ویزاهای کاری امکان همراهی خانواده را می‌دهند.</li>
+    <li><b>مزایای مهاجرت کاری چیست؟</b> درآمد بهتر، زندگی با کیفیت‌تر، امکانات رفاهی و آموزشی.</li>
+    <li><b>معایب چیست؟</b> دوری از خانواده، هزینه‌های اولیه، مشکلات زبان و فرهنگ.</li>
+  </ul>
+</section>
+
+<script>
+function showSection(id) {
+  const sections = ['countries','visas','embassy','jobs','faq'];
+  sections.forEach(section => {
+    document.getElementById(section).style.display = (section === id) ? 'block' : 'none';
+  });
+  // دکمه فعال را مشخص می‌کنیم
+  const buttons = document.querySelectorAll('nav button');
+  buttons.forEach(btn => {
+    btn.classList.remove('active');
+  });
+  event.target.classList.add('active');
+}
+</script>
+
+<footer>
+  <p>© 2025 راهنمای مهاجرت کاری. همه حقوق محفوظ است.</p>
+</footer>
+
+</body>
+</html>
